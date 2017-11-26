@@ -13,7 +13,7 @@ class MainPage extends Component {
     return(
       <div>
         <h1> this is Mainpage</h1>
-        <Link to="/Logout"><Button>Logout</Button></Link>
+        <Link to="/"><Button>Logout</Button></Link>
         <div className="select">
           <h3> You are... </h3>
           <div className="select-buttons">

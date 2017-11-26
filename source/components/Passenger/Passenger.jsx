@@ -21,7 +21,7 @@ class Passenger extends Component {
     return(
       <div>
         <h1> this is Passenger page</h1>
-        <Link to="/Logout"><Button>Logout</Button></Link>
+        <Link to="/"><Button>Logout</Button></Link>
         <Link to="/MainPage"><Button>MainPage</Button></Link>
         <div className="Passenger_filter">
           <Dropdown placeholder="Departure" selection options={departure} />

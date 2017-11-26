@@ -18,7 +18,7 @@ class User extends Component {
               MainPage
             </Button>
           </Link>
-          <Link to="/Logout">
+          <Link to="/">
             <Button>
               Logout
             </Button>

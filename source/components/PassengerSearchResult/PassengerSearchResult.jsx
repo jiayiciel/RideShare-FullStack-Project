@@ -12,7 +12,7 @@ class PassengerSearchResult extends Component {
     return(
       <div>
         <h1> this is PassengerSearchResult page</h1>
-        <Link to="/Logout"><Button>Logout</Button></Link>
+        <Link to="/"><Button>Logout</Button></Link>
       </div>
     )
   }
