@@ -1,84 +1,76 @@
-# MP #2: New Clear REACTive App
-### Due: October 9th, 2017, 11.59PM CDT
+Final Project: Your Own Web App!
+Overview
 
-## Table of Contents
-1. [Assignment](#assignment)
-2. [Grading Breakdown](#grading-breakdown)
-3. [Tips](#tips)
-4. [Rules](#rules)
-5. [Environment Setup Guide](#environment-setup-guide)
-6. [Submission Details](#submission-details)
+Your goal is to create a database-backed web application which utilizes a RESTful API with the following constraints:
 
-## Assignment
+Your team may only consist of 4-5 people, with each person having a specific role.
+Your project must be a web application that has a frontend, an API, JavaScript backend, and at least one database.
+Your project needs to have user authentication.
+Your project needs to have a heuristic evaluation with at least one revision. Make sure you plan time for this.
+Your project must have a strong focus on design, primarily in user experience (UX), user interface (UI), and responsiveness.
+Part A: Proposal
 
-#### Task
-In this programming assignment, you will implement a front-end interface using React that consumes an API. Please read through the entire MP before you start.
+Due - Nov 8, 2017, 11.59PM CST
 
-Here is a video demo for a [sample application](https://youtu.be/DmDZuAr7QJE).
+Fill out this short Google form with your team information
 
-#### Requirements
-Create a single-page React app that lets users interact with the data from one of the following APIs. 
-  - TMDB (https://www.themoviedb.org/documentation/api)
-  - Spotify (https://developer.spotify.com/web-api/)
-  - Pokemon (https://pokeapi.co/)
-Note that you may need to create an account and/or acquire an API key for some of the APIs. 
+Upload a one-page PDF proposal to this Google drive folder containing the following:
 
-Your app should have the following features:
-  - **A list view**:  where users can input a search query and the app returns a list of results that match the query (i.e. searching movies or albums). There should also be a way to sort the search results based on different properties of the results (such as the name or rank) and of specifying an ordering (ascending and descending). Also, the search bar should filter as you type. You can sort and filter in the client side.
-  - **A gallery view**: that displays some kind of image media from the chosen API (gallery of movie posters). The gallery view should also have some kind filtering attribute where users can select one or many attributes and filter the gallery by them (i.e. genres of films or music). 
-  -  **A detail view**: When an item in the search view or the gallery view is clicked, the app should display the different attributes of the selected item. Also, this view should have previous and next buttons (can be implemented with arrows) that lets the user cycle through the list of objects.
-  
-You will also be required to use following tools:
-  - Use <code>react-router-dom</code> for routing.
-  - Use <code>Axios</code> for API calls.
-  - Use <code>SemanticUI</code> for frontend design
-  - Use <code>PropTypes</code> for relevant components. https://facebook.github.io/react/docs/typechecking-with-proptypes.html
+Team Name
+Team Members (Names and NetIDs)
+Three Project Proposals with the following:
+Problem Statement + Motivation
+User problems you are solving
+Basic interactions your app will support in service of goal
+Other apps that are similar
+How your app is different
+There is no length requirement for the proposals, but they should cover all the information above.
 
-## Grading Breakdown
-Total Points : 50
+Part B: Functional Prototypes
 
-List View:
-  - Does the list view display relevant items from the chosen API ? (2 points)
-  - Does the search bar filter down the items based on the search? (4 points)
-  - Can you sort by at least 2 properties?  (4 points)
-  - Can the sorting be done in Ascending and Descending order?  (4 points)
+Due - November 27, 2017, In Class
 
-Gallery View:
-  - Is the gallery composed of item media?  (2 points)
-  - Does clicking on a filter change the results?  (4 points)
+During class, teams will perform heuristic evaluations of each other’s prototypes and give feedback.
 
-Details View:
-  - Does clicking on an item in List View take you to the Details View?  (5 points)
-  - Does clicking on an item in Gallery View take you to the Details View?  (5 points)
-  - Does the Details View contain item details?  (4 points)
-  - Does the PREVIOUS and NEXT buttons work correctly?  (5 points)
+Prototypes should capture at least three of the key interactions in your team’s web app. The prototypes can be done digitally (using software like powerpoint or balsamiq), but should be printed and brought to class. During class, the TAs will be walking around grading prototypes for quality and completion.
 
-Other:
-  - Does the implementation use React Router and PropTypes?  (6 points)
-  - Design (5 points)
+Part C: Final Presentation
 
-## Tips
-  - Start early! This is first MP that uses React so start ahead.
-  - Please DO NOT delete the gitignore file from the project
+Due - Dec 13, 2017, Before Class
 
-## Rules
-1. This is an individual assignment. No collaboration is permitted.
-2. It is not permitted to copy/paste code that is not your own. You are, however, free to look at different code sources for inspiration and clarity. All sources (code as well as reading material) that you reference to complete this assignment must be declared in the submission.
-3. There should be no use of inline styling.
-4. No inline script tags should be used.
-5. HTML tables cannot be used for layout.
-6. If you think something you’re doing might not be acceptable, please ask on Piazza.
-7. You must utilize some SCSS features (variables, mixins, etc). A plain CSS file will receive less points.
+On the final day of class, your overall deliverables are:
 
-## Environment Setup Guide
-1. Clone the repository:
-`git clone https://github.com/uiuc-web-programming/mp2_starter_17.git mp2`, then `cd mp2`
-2. Install dependencies:
-`npm install`
-3. Run the dev server:
-`npm run dev`
-4. Open a browser and go to `http://localhost:8080/` to view your page. You should see "Welcome to MP2!".
-5. Open up `source/index.js` and `source/html/index.html` and read the comments in those files to get an idea of how to start. *We will not answer questions that are already answered by the comments there.*
+Source Code for the Project / URL to GitHub Repository
+URL to your hosted project
+No longer than 3-minute video detailing your web app’s purpose, design, and functionality
+~~Peer evaluation~~
+Final Project Competition @ Research Park
 
-## Submission Details
-[Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSfFhk_QzJJ1fRn4WV3_hdCwpnTWTyMKBRqFll_AsTHNqGQlMQ/viewform?usp=sf_link)
+Everyone is invited to come to Research Park Atrium on December 13th (time TBD) to enjoy refreshments and watch presentations given by the top projects.
+
+The address for Research Park is: 60 Hazelwood Dr, Champaign, IL 61820. To get to Research Park via CUMTD, follow this map.
+
+Out of the final projects, the Course Staff will choose the best 10-13 projects to present at Research Park. The presentations will consist of 3 minutes for the video and 5 minutes for a Q&A session. Industry experts from Research Park will be present in order to judge your projects and ask questions.
+
+The judges will then choose the best projects to receive awards (TBD).
+
+Video Requirements
+
+3-minutes length max
+Should focus on design and functionality
+Use screen capture software (SnagIt/ScreenFlow (Mac)/Camstasia/Quicktime)
+Demo the important user flows
+Voice-over should tell a concrete story: user, problem, and how your app solves it
+Communicate the motivation behind design decisions (e.g. how did heuristic evaluation play a role in changes that were made to the interface?)
+Grade Breakdown
+
+proposal/prototypes (10%)
+video (15%)
+design (UX, UI, responsiveness, evaluation) (35%)
+front end implementation (15%)
+back end implementation (15%)
+user authentication (10%)
+Submission Instructions
+
+Each team should fill out the project submission form exactly ONCE.
+The deadline to fill out this form is noon central time on Wednesday, December 7th.
